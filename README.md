@@ -1,5 +1,13 @@
 # React-shop-cloudfront
 
+bucket http://my-rs-bucket-22.s3-website.eu-central-1.amazonaws.com/
+cloudfront dp020wqoim2ro.cloudfront.net
+
+can't finish:
+3. Add and configure serverless-single-page-app-plugin as it is implemented in the demo repository. Add necessary npm script(s) to build, upload to your S3 bucket, and invalidate CloudFront cache from your machine in an automated way. Check if everything works fine and all changes appear on the Web.
+some issue with ServerlessError: The AWS Access Key Id you provided does not exist in our records.
+
+
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
 
 - [Vite](https://vitejs.dev/) as a project bundler
