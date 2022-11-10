@@ -1,11 +1,11 @@
-  service: walpaper-shop-aws-app
+  service: wallpaper-shop-aws-app
 
   frameworkVersion: "3"
 
   provider:
     name: aws
     runtime: nodejs14.x
-    region: eu-west-1
+    region: eu-west-3
     # setup profile for AWS CLI.
 
   plugins:
@@ -18,7 +18,7 @@
 
   custom:
     client:
-      bucketName: walpaper-shop-sls-auto
+      bucketName: wallpaper-shop-sls-auto
       distributionFolder: dist
     s3BucketName: ${self:custom.client.bucketName}
 
