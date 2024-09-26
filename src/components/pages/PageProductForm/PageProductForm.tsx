@@ -49,7 +49,7 @@ export default function PageProductForm() {
       ) : (
         <Formik
           initialValues={data ?? initialValues}
-          validationSchema={AvailableProductSchema}
+          // validationSchema={AvailableProductSchema}
           onSubmit={onSubmit}
         >
           {({ dirty, isSubmitting }: FormikProps<AvailableProduct>) => (

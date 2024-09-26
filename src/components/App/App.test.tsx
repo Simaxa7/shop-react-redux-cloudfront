@@ -18,6 +18,8 @@ test("Renders products list", async () => {
       description: "Product 1 description",
       price: 1,
       count: 1,
+      image: "image_1.jpg",
+      creationDate: 0,
     },
     {
       id: "2",
@@ -25,6 +27,8 @@ test("Renders products list", async () => {
       description: "Product 2 description",
       price: 2,
       count: 2,
+      image: "image_1.jpg",
+      creationDate: 0,
     },
   ];
   server.use(
